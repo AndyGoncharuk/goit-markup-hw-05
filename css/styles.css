@@ -422,16 +422,15 @@ address {
 
 .label {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
+  bottom: 0;
+  padding-bottom: 26px;
+  padding-left: 107px;
   font-weight: 700;
   font-size: 14px;
   line-height: auto;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; 
   text-transform: uppercase;
-  margin: auto;
+  margin: 0;
   color: #ffffff;
 }
 
