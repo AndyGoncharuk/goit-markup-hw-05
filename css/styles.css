@@ -424,7 +424,6 @@ address {
   position: absolute;
   bottom: 0;
   padding-bottom: 26px;
-  padding-left: 107px;
   font-weight: 700;
   font-size: 14px;
   line-height: auto;
@@ -432,6 +431,18 @@ address {
   text-transform: uppercase;
   margin: 0;
   color: #ffffff;
+}
+
+.desktop {
+  padding-left: 107px;
+}
+
+.mobile {
+  padding-left: 113px;
+}
+
+.design {
+  padding-left: 95px;
 }
 
 
