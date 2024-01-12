@@ -766,6 +766,26 @@ address {
   margin-left: calc(-1 * var(--exemplum-gap-left));
 }
 
+.overlay {
+  position: relative;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+}
+
+.exemplum-card:hover .overlay::before {
+  transform: translateY(0);
+}
+
 .htehnockryak,
 .hposter,
 .hrestaurant,
@@ -804,6 +824,7 @@ address {
   text-decoration: none;
   color: #212121;
 }
+
 
 .item-exemplum > .exemplum-card:hover,
 .item-exemplum > .exemplum-card:focus {
