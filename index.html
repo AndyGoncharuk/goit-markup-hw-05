@@ -61,13 +61,16 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hhero">Ефективні рішення для вашого бізнесу</h1>
-          <button class="order-service" type="button">Замовити послугу</button>
+          <button class="order-service" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
       <!-- Бекдроп -->
-      <div class="backdrop is-hidden">
+      <!-- <button class="open-modal">Відкрити модальне вікно</button> -->
+      <div class="backdrop is-hidden" data-modal>
         <div class="modal"></div>
+        <!-- <p></p> -->
+          <button class="close-modal" data-modal-close>Закрити модальне вікно</button>
       </div>
 
       <!--Наши преимущества -->
@@ -455,5 +458,7 @@
 
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
+    </body>
   </body>
 </html>
